@@ -1,0 +1,7 @@
+print('เครื่องตัดเกรด AUTO')
+score = int(input ('กรุณากรอกคะแนนของนักเรียน'))
+if score >= 80: print('Grade 4')
+elif score >= 70: print('Grade 3')
+elif score >= 60: print('Grade 2')
+elif score >= 50: print('Grade 1')
+else: print('Grade 0')
